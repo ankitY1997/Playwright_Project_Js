@@ -1,0 +1,65 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build / output
+dist/
+build/
+coverage/
+.nyc_output/
+
+# Playwright artifacts
+.playwright/
+playwright-report/
+test-results/
+artifacts/
+**/test-results/
+**/playwright-report/
+videos/
+traces/
+screenshots/
+*.trace
+
+# Environment
+.env
+.env.*
+.env.local
+
+# Logs
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*~
+*.swp
+
+# Misc
+.cache/
+coverage/
+*.tgz
+
+# Ignore local system-specific files
+/local.settings.json
+
+# Keep lockfiles but ignore package manager state directories
+.pnpm-store/
+
+# Secrets and keys
+*.pem
+*.key
+
+# Optional: ignore generated Playwright trace viewer output
+playwright-trace-viewer/
