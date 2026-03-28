@@ -1,0 +1,12 @@
+Playwright_Project_Js
+
+This repository contains Playwright-based JavaScript examples and exercises.
+
+Contents:
+- Chapter_01_Basics/: basic scripts demonstrating Node and Playwright usage
+
+Notes:
+- Use Node.js v18+ or newer.
+- Install dependencies with `npm install` if a package.json is present.
+
+Contact: ankitY1997
