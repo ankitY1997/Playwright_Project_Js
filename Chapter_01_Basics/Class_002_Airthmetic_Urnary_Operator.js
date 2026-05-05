@@ -191,46 +191,56 @@ console.log("Divide By return quotient", a / 10);//2
 }
 
 
-
-/**
- *    Conditional Statement
- * 
- * // if statment -> compare a one conditon
- *   if(conditon ){
- * }
- * 
- * //. if else statment => compare only one condition
- *  if(){
- * } else . => 
- * }
- * 
- * // if else if statment (compare multiple condition)
- * 
- *  if(){
- * }else if(){
- * } else if(){
- * } else{
- * }
- * 
- * 
- * 
- * 
- */
-
-
-/**
- *   turnary operator
- * 
- *   syntax =>. condtion ? " if true" : "if false";
- * 
- *  if (condtions ) is true then it will exectue first statment
- * 
- *  if condition is false then it will execute second statement
- * 
- * 
- * 
- */
+{
+    /**
+     *    Conditional Statement
+     * 
+     * // if statment -> compare a one conditon
+     *   if(conditon ){
+     * }
+     * 
+     * //. if else statment => compare only one condition
+     *  if(){
+     * } else . => 
+     * }
+     * 
+     * // if else if statment (compare multiple condition)
+     * 
+     *  if(){
+     * }else if(){
+     * } else if(){
+     * } else{
+     * }
+     * 
+     */
 
 
 
+}
+{
+    /**
+     *   turnary operator
+     * 
+     *   syntax =>. condtion ? " if true" : "if false";
+     * 
+     *  if (condtions ) is true then it will exectue first statment
+     * 
+     *  if condition is false then it will execute second statement
+     * 
+     * 
+     * 
+     * 
+     * 
+     */
+
+    let a = 50;
+    let b = 40;
+    let true_cond = (a > b) ? " A is greater than b" : "B is greater than A";
+    console.log(" true cond  Result Is :", true_cond);
+
+    let false_cond = (a < b) ? " A is greater than b" : "B is greater than A";
+    console.log(" False Condition :", false_cond);
+
+
+}
 
